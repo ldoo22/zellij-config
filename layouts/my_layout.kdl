@@ -9,6 +9,7 @@ layout {
     //     }
     //     pane size="25%" borderless=true {
     //         plugin location="file:/home/rrmintt/.config/zellij/plugins/zellij-datetime.wasm"
+    //           plugin location="file:/home/rrmintt/.config/zellij/plugins/zellij-datetime.wasm"
     //     }
     // }
 }
