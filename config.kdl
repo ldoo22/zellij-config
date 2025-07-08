@@ -6,10 +6,10 @@ keybinds {
     // }
     normal clear-defaults=true {
         bind "Ctrl b" { SwitchToMode "Tmux"; }
-        bind "Alt a" { GoToTab 1; }
-        bind "Alt s" { GoToTab 2; }
-        bind "Alt d" { GoToTab 3; }
-        bind "Alt f" { GoToTab 4; }
+        bind "Alt s" { GoToTab 1; }
+        bind "Alt d" { GoToTab 2; }
+        bind "Alt f" { GoToTab 3; }
+        bind "Alt g" { GoToTab 4; }
         bind "Alt p" { EditScrollback; }
         bind "Alt w" { SwitchToMode "Session"; }
     }
@@ -352,7 +352,7 @@ default_layout "my_layout"
 // Default: $EDITOR or $VISUAL
 //
 // scrollback_editor "/usr/bin/vim"
-scrollback_editor "/usr/local/bin/nvim"
+// scrollback_editor "/usr/local/bin/nvim"
 
 // When attaching to an existing session with other users,
 // should the session be mirrored (true)
